@@ -76,5 +76,27 @@ Backend Developer
         </p>
 
     </div>
+    <div class="flex bg-yellow-700 text-gray-100 pt-10">
+        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+            <span class="uppercase text-xs">
+                PHP
+            </span>
+            <h3 class="text-xl font-bold py-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reiciendis reprehenderit veniam consequuntur rerum iure aspernatur ratione cupiditate minima deserunt ea soluta velit iste, labore debitis quaerat, aut amet adipisci!
+
+
+            </h3>
+            <a href=""
+            class="uppercase bg-transparent border-2 border-gray-100
+            text-xs font-extrabold py-3 px-5 rounded-3xl">
+            Find Out More
+        </a>
+
+        </div>
+        <div>
+            <img src="#" width ="700 "alt="">
+        </div>
+
+    </div>
 
 @endsection
