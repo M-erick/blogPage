@@ -40,6 +40,7 @@ Do you want to Become a developer ?
             font-extrabold py-3 rounded-3xl">
         Find out more</a>
     </div>
+    </div>
     <div class="text-center p-15 bg-black text-white">
 <h2 class="text-2xl pb-5 text-l">
     I'm an expert in ..
@@ -60,7 +61,7 @@ Project management
 Backend Developer
 
 </span>
-    </div>
+  
 
     </div>
     <div class="text-center py-15">
