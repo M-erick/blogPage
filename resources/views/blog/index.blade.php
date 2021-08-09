@@ -33,7 +33,7 @@ Create Post
 <div class="sm:grid grid-cols-2 gap-2 w-4/5 mx-auto py-15 border-b border-gray-200">
     <div>
         <!---Add An image-->
-        <img src="" alt="">
+        <img src="{{ asset('images/' . $post->image_path) }}" alt="">
     </div>
     <div>
     <h2 class="text-gray-700 font-bold text-5xl pb-4">
@@ -54,6 +54,29 @@ Create Post
     Keep Reading
 
     </a>
+    @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
+    <span class="float-right">
+        <a href="/blog/{{ $post->slug }}/edit"
+            class="text-gray-700 italic hover:text-gray-900 pb-1 border-b-2">
+            Edit
+        </a>
+        
+    </span>
+    <span class="float-right">
+        <form action="/blog/{{ $post->slug }}"
+            method="POST">
+        @csrf
+        @method('delete')
+        <button class="text-red-500 pr-3"
+        type="submit">
+        Delete
+
+        </button>
+        </form>
+
+    </span>
+        
+    @endif
 
 
 </div>
