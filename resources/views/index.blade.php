@@ -99,7 +99,7 @@ Backend Development
     </div>
         </div>
         <div>
-            <img src="#" width ="700 "alt="">
+            <img src="https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_1280.jpg" width ="800 "alt="">
         </div>
 
     </div>
