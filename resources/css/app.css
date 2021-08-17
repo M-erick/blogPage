@@ -3,13 +3,15 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+@apply{
 .background-image
 {
     /*Add an image*/
-    background-image: url(''); /* include image*/
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_1280.jpg'); /* include image*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 600px;
+}
 }

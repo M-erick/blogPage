@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('content')
-    <div class="background-image grid grid-cols-1 m-auto">
+    <div  style= "background-image:url('https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_1280.jpg'); " class="  w-full h-full bg-no-repeat 
+    bg-cover grid grid-cols-1 m-auto">
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block
             text-center">
