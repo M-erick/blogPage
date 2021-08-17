@@ -48,8 +48,11 @@
                 </nav>
             </div>
         </header>
+        <div>
+            @yield('content')
+        </div>
 
-        @yield('content')
+      
     </div>
     <div>
         @include('layouts.footer')

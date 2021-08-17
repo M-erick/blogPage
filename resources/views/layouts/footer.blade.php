@@ -85,13 +85,13 @@
 
             </li>
             <li class="pb-1">
-                <a href="/blog">
+                <a href="/">
          Why to Us Laravel
                 </a>
 
             </li>
             <li class="pb-1">
-                <a href="/login">
+                <a href="/">
       Why php is the best
                 </a>
 
@@ -103,6 +103,6 @@
 
 </div>
 <p class="w-25 w-4/5 pb-3 m-auto text-xs text-gray-100 pt-6">
-Copyright 2017-2021 Code with Erick.All Right Reserved.
+Copyright 2017-2021 Code with Erick.All Rights Reserved.
 </p>
 </footer>

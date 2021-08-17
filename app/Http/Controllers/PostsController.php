@@ -60,12 +60,13 @@ class PostsController extends Controller
         'title'=>$request->input('title'),
         'description'=>$request->input('description'),
         'image_path'=>$newImageName,
+        'slug'=>SlugService::createSlug(Post::class,'slug',$request->title),
         'user_id' => auth()->user()->id
 
        ]);
-       return redirect('/blog')->with('message','Your Post has been added !');
-       $slug = SlugService::createSlug(Post::class,'slug',$request->title);
-      // dd($slug);
+       return redirect('/blog')
+       ->with('message','Your Post has been added !');
+      
       
 
         //
@@ -108,13 +109,12 @@ class PostsController extends Controller
            
             'title'=>'required',
             'description'=>'required',
-           //'description' => 'required', rectify this error output
-           // 'image'=>'required|mimes:jpg,png,jpeg|max:5048'
+           
         ]);
         Post::where('slug',$slug)->update([
             'title'=>$request->input('title'),
             'description'=>$request->input('description'),
-            //'image_path'=>$newImageName,
+           
             'user_id' => auth()->user()->id
     
 

@@ -6,7 +6,7 @@
 .background-image
 {
     /*Add an image*/
-    background-image: url('');
+    background-image: url(''); /* include image*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

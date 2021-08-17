@@ -33,7 +33,7 @@ Create Post
 <div class="sm:grid grid-cols-2 gap-2 w-4/5 mx-auto py-15 border-b border-gray-200">
     <div>
         <!---Add An image-->
-        <img src="{{ asset('images/' . $post->image_path) }}" alt="">
+        <img src="{{ asset('images/' . $post->image_path) }}" width="500" alt="">
     </div>
     <div>
     <h2 class="text-gray-700 font-bold text-5xl pb-4">
